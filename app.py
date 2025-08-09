@@ -1,7 +1,6 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-import os
 
 #------ Configuração da página
 st.set_page_config(
@@ -11,7 +10,7 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
-df = pd.read_csv(os.getcwd()+"\dados_imersao_final.csv")
+df = pd.read_csv("https://github.com/cjneto/imersao_dados_alura/blob/release/dados_imersao_final.csv")
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")

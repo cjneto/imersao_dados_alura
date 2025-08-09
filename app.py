@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
-df = pd.read_csv("https://github.com/cjneto/imersao_dados_alura/blob/release/dados_imersao_final.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/cjneto/imersao_dados_alura/refs/heads/release/dados_imersao_final.csv")
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
